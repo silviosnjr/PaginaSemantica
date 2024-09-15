@@ -1,0 +1,103 @@
+/* Estilos globais */
+.body-bg {
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+}
+
+/* Estilos para o header */
+#main-header {
+    background-color: #f06292;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 50px;
+}
+
+#nav-menu .menu-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    display: inline;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #888;
+    border-radius: 5px;
+}
+
+/* Estilos para o main */
+#main-content {
+    background-color: #ffeb3b;
+    padding: 20px;
+}
+
+/* Estilos para a seção de artigos */
+#articles-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #7e57c2;
+    padding: 20px;
+}
+
+.article {
+    background-color: #4db6ac;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilos para a seção de lista */
+#list-section {
+    background-color: #9575cd;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.item-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.list-item {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Estilos para o footer */
+#main-footer {
+    background-color: #006064;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
